@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Profissional</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Adicionar link para ícones (ex: Font Awesome) se desejar -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Adicionar Botão Hamburguer para Mobile -->
+            <button class="hamburger-menu" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#apresentacao">Apresentação</a></li>
+                    <li><a href="#habilidades">Conhecimentos</a></li>
+                    <li><a href="#certificados">Certificados</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="scroll-section">
+            <div class="container">
+                <div class="home-content">
+                <div class="home-text">
+                    <h1>Olá, eu sou a<br><span>BIANCA RODRIGUES</span></h1>
+                    <hr>
+                    <p>Desenvolvedora web</p>
+                </div>
+                <div class="home-image">
+                    <div class="frame-overlay"></div>
+                    <img src="/static/assets/shared image.jfif" alt="">
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="apresentacao" class="scroll-section">
+            <div class="container">
+                <h2>Apresentação</h2>
+                <p>
+                    Olá! Sou Bianca Rodrigues de Moraes, uma profissional apaixonada 
+                     Desenvolvimento de Sistemas. Com uma trajetória focada em programação 
+                     de páginas web, banco de dados e prototipação, busco constantemente novos 
+                     desafios e oportunidades para aplicar e expandir meus conhecimentos.
+                </p>
+                <p>
+                    Este portfólio é uma amostra do meu trabalho e das minhas competências. 
+                    Aqui você encontrará detalhes sobre minhas habilidades técnicas, como a criação 
+                    de soluções web eficientes e o desenvolvimento de sistemas responsivos, além de projetos 
+                    significativos que realizei, certificações relevantes e meus objetivos de carreira. Acredito 
+                    que a combinação de criatividade, dedicação e um olhar atento aos detalhes é fundamental para 
+                    alcançar resultados de excelência e agregar valor aos projetos em que me envolvo.
+
+
+                </p>
+                <!-- Opcional: Adicionar uma imagem de perfil -->
+                <!-- <img src="path/to/your-profile-image.jpg" alt="Minha Foto de Perfil" class="profile-image"> -->
+            </div>
+        </section>
+
+        <section id="habilidades" class="scroll-section">
+            <div class="container">
+                <h2>Conhecimentos</h2>
+                <div class="habilidades-grid">
+                    <div class="skill-item">
+                    <div class="skill-header-1">
+                        <h3>HTML & CSS</h3>
+                        <img src="/static/assets/htmlcss.png" alt="">
+                    </div>
+                    <p>Estrutura e estilo básico de páginas web.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header-1">
+                        <h3>JavaScript</h3>
+                        <img src="/static/assets/javascript.png" alt="">
+                    </div>
+                    <p>Interatividade e dinâmica em sites.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>APIs</h3>
+                        <img src="/static/assets/API.png" alt="">
+                    </div>
+                    <p>Conexão entre sistemas para troca de dados.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Design Responsivo</h3>
+                        <img src="/static/assets/responsive-design.png" alt="">
+                    </div>
+                    <p>Sites que se adaptam a qualquer tela.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>UI/UX Design</h3>
+                        <img src="/static/assets/UXUI.png" alt="">
+                    </div>
+                    <p>Interfaces e experiências fáceis e agradáveis.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>GitHub</h3>
+                        <img src="/static/assets/github.png" alt="">
+                    </div>
+                    <p>Controle de versões e colaboração.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Python</h3>
+                        <img src="/static/assets/python.png" alt="">
+                    </div>
+                    <p>Linguagem versátil para diversas aplicações.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header-2">
+                        <h3>Framework Flask</h3>
+                        <img src="/static/assets/Flask-removebg-preview.png" alt="">
+                    </div>
+                    <p>Ferramenta Python para criar sites simples e rápidos.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Banco de Dados</h3>
+                        <img src="/static/assets/sql-server.png" alt="">
+                    </div>
+                    <p>Armazenamento e organização de dados.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Kanban</h3>
+                        <img src="/static/assets/kanban.png" alt="">
+                    </div>
+                    <p>Armazenamento e organização de dados.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>VSCode</h3>
+                        <img src="/static/assets/vscode.png" alt="">
+                    </div>
+                    <p>Armazenamento e organização de dados.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Canva</h3>
+                        <img src="/static/assets/canva.png" alt="">
+                    </div>
+                    <p>Armazenamento e organização de dados.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Figma</h3>
+                        <img src="/static/assets/figma.png" alt="">
+                    </div>
+                    <p>Armazenamento e organização de dados.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Miro</h3>
+                        <img src="/static/assets/miro.png" alt="">
+                    </div>
+                    <p>Armazenamento e organização de dados.</p>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <h3>Trello</h3>
+                        <img src="/static/assets/trello.png" alt="">
+                    </div>
+                    <p>Armazenamento e organização de dados.</p>
+                </div>
+
+                    <!-- Adicione mais habilidades conforme necessário -->
+            </div>
+        </section>
+
+        <section id="certificados" class="scroll-section">
+            <div class="container">
+                <h2>Certificados Autoinstrucionais</h2>
+                <div class="certificados-list">
+                    <div class="certificado-item">
+                        <h3>Segurança do trabalho</h3>
+                        <p class="issuer">Instituição Senai - 2024</p>
+                        <p class="description">Certificação em Segurança do Trabalho abordando normas regulamentadoras (NRs), prevenção de acidentes, uso correto de EPIs e práticas de promoção da saúde e segurança no ambiente laboral.</p>
+                        <a href="/static/certificados/segurança.pdf" class="link-credencial" target="_blank" rel="noopener noreferrer">Ver Credencial</a>
+                    </div>
+                    <div class="certificado-item">
+                        <h3>Desvendando o 5G</h3>
+                        <p class="issuer">Instituição Senai - 2024</p>
+                        <p class="description">Formação voltada à compreensão da evolução da telefonia móvel, dos fundamentos e arquiteturas das redes 5G, seu potencial transformador, estágio de implantação e aplicações no cenário nacional e internacional.</p>
+                        <a href="/static/certificados/5G.pdf" class="link-credencial" target="_blank" rel="noopener noreferrer">Ver Credencial</a>
+                    </div>
+                    <div class="certificado-item">
+                        <h3>Economia circular</h3>
+                        <p class="issuer">Instituição Senai - 2024</p>
+                        <p class="description">Certificado em modelos de produção sustentáveis e economia circular, abordando design como agente de transformação, evolução industrial, tecnologias habilitadoras e estratégias para consumo inteligente e colaboração.</p>
+                        <a href="/static/certificados/economia.pdf" class="link-credencial" target="_blank" rel="noopener noreferrer">Ver Credencial</a>
+                    </div>
+                    <div class="certificado-item">
+                        <h3>Privacidade e proteção de dados (LGPD)</h3>
+                        <p class="issuer">Instituição Senai - 2024</p>
+                        <p class="description">Certificado em privacidade e proteção de dados, cobrindo direitos dos titulares, deveres das empresas, governança de dados e sanções pela LGPD.</p>
+                        <a href="/static/certificados/LGPD.pdf" class="link-credencial" target="_blank" rel="noopener noreferrer">Ver Credencial</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="scroll-section">
+            <div class="container">
+                <h2>Projetos</h2>
+                <div class="projetos-grid">
+                    <div class="projeto-item">
+                        <img src="/static/assets/cartas.png" alt="Nome do Projeto 1">
+                        <div class="projeto-conteudo">
+                            <h3>Jogo das Cartas</h3>
+                            <p class="description">Jogo de cartas inspirado em Ben 10, feito com HTML, CSS, JavaScript e Python. O objetivo é usar estratégia para derrotar as cartas do oponente em batalhas por turno.</p>
+                            <div class="projeto-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="https://jogo-cartas.onrender.com" class="projeto-link" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="projeto-item">
+                        <img src="/static/assets/chat.png" alt="Nome do Projeto 2">
+                        <div class="projeto-conteudo">
+                            <h3>Chat Pessoal</h3>
+                            <p class="description">Projeto de chat web com interface moderna e múltiplas telas, criado para praticar desenvolvimento front-end e back-end. Inclui login, cadastro, perfil, usuários online, configurações e chat em tempo real.</p>
+                            <div class="projeto-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="https://chat-pessoal-z1cj.onrender.com" class="projeto-link" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="projeto-item">
+                        <img src="/static/assets/investimento.png" alt="Nome do Projeto 2">
+                        <div class="projeto-conteudo">
+                            <h3>Investimentos</h3>
+                            <p class="description">Plataforma interativa que reúne informações de investimentos em renda fixa e variável, mostrando saldo, rendimento, carteira e projeções com gráficos claros e interface moderna, focada em usabilidade para facilitar a gestão financeira.</p>
+                            <div class="projeto-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="https://projeto-investimento-ez1o.onrender.com/" class="projeto-link" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <div class="projeto-item">
+                        <img src="/static/assets/imagem.jfif" alt="Nome do Projeto 2">
+                        <div class="projeto-conteudo">
+                            <h3>Carrd-Aesthetic</h3>
+                            <p class="description">Projeto de perfil interativo no estilo Carrd, criado para apresentar identidade, gostos e carreira de forma visual e criativa.</p>
+                            <div class="projeto-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                            <a href="https://carrd-aesthetic.onrender.com/" class="projeto-link" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+                        </div>
+                    </div>
+                    <!-- Adicione mais projetos -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contatos" class="scroll-section">
+            <div class="container">
+                <h2>Contatos</h2>
+                
+                <div class="contact-section">
+                <!-- Seção Entre em Contato -->
+                <div class="contact-info">
+                    <h3>Entre em Contato</h3>
+                    <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <img src="/static/assets/gmail.png" width="20px" alt="">
+                        </div>
+                        <div class="contact-text">
+                        <p>Email:</p>
+                        <a href="mailto:biancarodrigues2456@gmail.com">biancarodrigues2456@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <img src="/static/assets/localizacao.png" width="20px" alt="">
+                        </div>
+                        <div class="contact-text">
+                        <p>Localização:</p>
+                        <p>Santana de Parnaíba, São Paulo</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Seção Conecte-se -->
+                <div class="connect-section">
+                    <h3>Conecte-se</h3>
+                    <div class="social-links">
+                    <a href="https://www.linkedin.com/in/bianca-rodrigues-a167b531b/" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <div class="social-icon">
+                            <img src="/static/assets/linkedin.png" width="20px" alt="">
+                        </div>
+                        <span>LinkedIn</span>
+                    </a>
+                    
+                    <a href="https://github.com/biamoraes" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <div class="social-icon">
+                            <img src="/static/assets/github.png" width="20px" alt="">
+                        </div>
+                        <span>GitHub</span>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/biavy_/?next=%2F" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <div class="social-icon">
+                            <img src="/static/assets/instagram.png" width="20px" alt="">
+                        </div>
+                        <span>Instagram</span>
+                    </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Bianca Rodrigues de Moraes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
