@@ -43,6 +43,6 @@ Projetos: Lista com os principais projetos, cada um com imagem, link e descriç�
 
 Contato: Formulário simples e links para e-mail, Instagram, GitHub e outras redes sociais.
 
-📱 Responsividade
+# 📱 Responsividade
 O site é totalmente responsivo e pode ser acessado por computadores, tablets e celulares sem perda de funcionalidade ou qualidade visual.
 
