@@ -13,6 +13,8 @@
 # 🌐 Projeto: Portfolio Web Interativo
 Este projeto é um portfólio pessoal desenvolvido com o objetivo de apresentar minhas habilidades, projetos, experiências e formas de contato de maneira moderna, interativa e profissional. Ele foi criado com foco na usabilidade e no design responsivo, adaptando-se bem a diferentes dispositivos.
 
+---
+
 # 🛠️ Tecnologias Utilizadas
 HTML – Estrutura das páginas do portfólio;
 
@@ -20,6 +22,7 @@ CSS – Estilização com foco em design limpo e responsivo;
 
 JavaScript – Animações, interações com o usuário e responsividade dinâmica.
 
+---
 
 # 🎯 Objetivos do Projeto
 Criar uma presença online profissional;
@@ -29,6 +32,8 @@ Expor meus projetos e habilidades de forma clara e atrativa;
 Demonstrar domínio em tecnologias web front-end;
 
 Facilitar o contato com recrutadores, empresas e outros desenvolvedores.
+
+---
 
 # 🖼️ Seções do Portfólio
 O portfólio conta com as seguintes seções:
@@ -45,8 +50,12 @@ Projetos: Lista com os principais projetos, cada um com imagem, link e descriç�
 
 Contato: Formulário simples e links para e-mail, Instagram, GitHub e outras redes sociais.
 
+---
+
 # 📱 Responsividade
 O site é totalmente responsivo e pode ser acessado por computadores, tablets e celulares sem perda de funcionalidade ou qualidade visual.
+
+---
 
 # 🔑 Link da aplicação  
 👉 [Clique para acessar o portfólio online](https://portfolio-v7qf.onrender.com)
