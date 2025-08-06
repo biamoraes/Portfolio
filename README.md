@@ -31,15 +31,17 @@ Facilitar o contato com recrutadores, empresas e outros desenvolvedores.
 # 🖼️ Seções do Portfólio
 O portfólio conta com as seguintes seções:
 
-Tela Inicial: Com meu nome, especialização e um botão de contato;
+Tela Inicial: Com meu nome;
 
-Sobre Mim: Pequeno resumo pessoal e profissional;
+Apresentação: Pequeno resumo pessoal e profissional;
 
-Habilidades Técnicas: Tecnologias que domino com ícones ou barras de progresso;
+Conhecimentos Técnicas: Tecnologias que domino com ícones ou barras de progresso;
+
+CertificadosAutoinstitucionais: Cursos feitos para agregar conhecimento na área;
 
 Projetos: Lista com os principais projetos, cada um com imagem, link e descrição;
 
-Contato: Formulário simples e links para e-mail, LinkedIn, GitHub e outras redes sociais.
+Contato: Formulário simples e links para e-mail, Instagram, GitHub e outras redes sociais.
 
 📱 Responsividade
 O site é totalmente responsivo e pode ser acessado por computadores, tablets e celulares sem perda de funcionalidade ou qualidade visual.
