@@ -37,7 +37,7 @@ Apresentação: Pequeno resumo pessoal e profissional;
 
 Conhecimentos Técnicas: Tecnologias que domino com ícones ou barras de progresso;
 
-CertificadosAutoinstitucionais: Cursos feitos para agregar conhecimento na área;
+Certificados Autoinstitucionais: Cursos feitos para agregar conhecimento na área;
 
 Projetos: Lista com os principais projetos, cada um com imagem, link e descrição;
 
