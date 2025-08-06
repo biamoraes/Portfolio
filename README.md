@@ -39,8 +39,6 @@ Habilidades Técnicas: Tecnologias que domino com ícones ou barras de progresso
 
 Projetos: Lista com os principais projetos, cada um com imagem, link e descrição;
 
-Currículo: Botão para download do currículo em PDF;
-
 Contato: Formulário simples e links para e-mail, LinkedIn, GitHub e outras redes sociais.
 
 📱 Responsividade
